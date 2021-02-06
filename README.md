@@ -14,7 +14,7 @@
 - Base Concepts of JavaScript:
   `Hoisting, Scope, lookup, declaration, etc.`
 - Advanced Topics and examples:
-  `Parameter scope and shadowing, etc.`
+  `Parameter scope and shadowing, Temporal Dead Zoneetc.`
 
 `coming soon...`
 
