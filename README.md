@@ -1,16 +1,15 @@
 # JavaScript Hoist the right way mini series
 
-### Be Assassin level
+### Gain Assassin level
 
 <div style="text-align:center"><img alt="Javascript Hoist the right way assasin level" src="./assets/banner.png" width="500"></div>
 
 ### Episodes:
 
-- Common problems with javascript hoist with quick answers
+- [Preview](./preview.md)
 
 - How JS engine Works
   `Prepration(Parsing/Compilation),Execution`
-
 - Base Concepts of JavaScript:
   `Hoisting, Scope, lookup, declaration, etc.`
 - Advanced Topics and examples:
