@@ -8,7 +8,7 @@
 
 - [Preview](./preview.md)
 
-- How JS engine Works
+- [How JS engine Works](./episode1.md)
   `Prepration(Parsing/Compilation),Execution`
 - Base Concepts of JavaScript:
   `Hoisting, Scope, lookup, declaration, etc.`
@@ -22,7 +22,10 @@
 - Your first contribution can be as simple as clicking the `star` button at the top-right corner of the page.
 - I would greatly appreciate any `bug fixes` or `type/grammatical errors fixes`.
 - The mini-series will be in English, but any translation in other languages is very welcomed.
-- We plan to make mini-series videos in persian, but any help to make the `English` version, will be greatly appreciated and welcomed.
+- We plan to make mini-series videos in `Persian`, but any help to make the `English` version, will be greatly appreciated and welcomed.
+
+`Characters`:
+<img width="20" alt="SeyyedKhandon the director" src="./assets/seyyedkhandon.png"> <img width="20" alt="koro-sensei or JS master" src="./assets/koro-sensei.png"> <img width="20" alt="nagisa" src="./assets/nagisa.png"> <img width="20" alt="nagisa" src="./assets/kaede.png"> <img width="20" alt="karma" src="./assets/karma.png"> <img width="40" alt="developer he/she" src="./assets/developer.png">
 
 ### Some of Current used resources:
 

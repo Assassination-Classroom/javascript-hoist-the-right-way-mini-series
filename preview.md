@@ -172,7 +172,7 @@ console.log(b);
 - Your first contribution can be as simple as clicking the `star` button at the top-right corner of the page.
 - I would greatly appreciate any `bug fixes` or `type/grammatical errors fixes`.
 - The mini-series will be in English, but any translation in other languages is very welcomed.
-- We plan to make mini-series videos in persian, but any help to make the `English` version, will be greatly appreciated and welcomed.
+- We plan to make mini-series videos in `Persian`, but any help to make the `English` version, will be greatly appreciated and welcomed.
 
 ### Some of Current used resources:
 
