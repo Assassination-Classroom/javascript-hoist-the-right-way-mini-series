@@ -1,6 +1,6 @@
 # Episode 1
 
-## Persian:
+### How JS engine Works
 
 <div style="text-align:center"><img alt="Javascript Hoist the right way assasin level" src="./assets/epi1-1.png" ></div>
 
