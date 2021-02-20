@@ -12,7 +12,7 @@ Everything began from this simple yet thinkable question: `Why learning new kind
 
 ### Gain Assassin level
 
-<div style="text-align:center"><img alt="Javascript Hoist the right way assasin level" src="./assets/banner.png" width="500"></div>
+<div style="text-align:center"><img alt="Javascript Hoist the right way assasin level" src="./assets/banner.png" width="350"></div>
 
 ### Episodes:
 
