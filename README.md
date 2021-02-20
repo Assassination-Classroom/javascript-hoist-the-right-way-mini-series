@@ -1,3 +1,13 @@
+# The Goal:
+
+<div style="text-align:center"><img alt="Back to the Glory" src="./assets/back_to_the_glory.png" width="300"></div>
+
+Everything began from this simple yet thinkable question: `Why learning new kinds of stuff is so irritating and annoying?!`
+`Assassination Classroom` goal is `JavaScript` and `TypeScript` learning in a `fun` and of course `modern way`.
+[--ReadMore--](./the_goal.md)
+
+---
+
 # JavaScript Hoist the right way mini series
 
 ### Gain Assassin level

@@ -1,6 +1,6 @@
 # Episode 1
 
-### How JS engine Works
+### How JS Engine Works
 
 <div style="text-align:center"><img alt="Javascript Hoist the right way assasin level" src="./assets/epi1-1.png" ></div>
 
@@ -84,9 +84,6 @@ Well thats enough for this `episode`, we will talk about `hoist`, `scope`,etc. i
 - `Engine`: Translates your scripts at `Runtime on the fly` into runnable machine code instructions.
 - `Enviroment`: Engine works inside an environment. It provides additional features like `DOM api, Fetch, Timer etc.` with utility libraries which can be used during execution.
   [--ReadMore--](./engine_vs_enviroment.md)
-
-
-
 
 ### Contribute
 
