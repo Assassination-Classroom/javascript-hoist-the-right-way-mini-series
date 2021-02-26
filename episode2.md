@@ -24,18 +24,15 @@
 
 <img width="20" alt="nagisa" src="./assets/kaede.png">
 
-`kaede`: No, I'll tell him my-self. `Sensei`, when do we start the practical tests? I think with just theories we can be a real assassin😔
+`kaede`: No, I'll tell him my-self. `Sensei`, when do we start the practical tests? I think with just theories we can't be real assassins😔
 
 <img width="20" alt="koro-sensei or JS master" src="./assets/koro-sensei.png">
 
 `Korosensei`: You are right `kaede`, We will parcrice today alot...😁 specially about some intersting questions which you are faceing at `interviews`😍.
 
-but, before that, you should know the some crucial conepts, Now everyone lets begin, are you ready???
+but, before that, you should know some crucial conepts, Now everyone lets begin, are you ready???
 
-<img width="20" alt="nagisa" src="./assets/nagisa.png"> 
-<img width="20" alt="nagisa" src="./assets/kaede.png"> 
-<img width="20" alt="karma" src="./assets/karma.png"> 
-<img width="40" alt="developer he/she" src="./assets/developer.png">
+<img width="20" alt="nagisa" src="./assets/nagisa.png"><img width="20" alt="nagisa" src="./assets/kaede.png"><img width="20" alt="karma" src="./assets/karma.png"><img width="40" alt="developer he/she" src="./assets/developer.png">
 
 `Class`: Yessssss
 
@@ -43,8 +40,7 @@ but, before that, you should know the some crucial conepts, Now everyone lets be
 
 <img width="20" alt="koro-sensei or JS master" src="./assets/koro-sensei.png">
 
-`korosensei`: So everyone, put your guns down and listen very well:
-`korosensei`: Anyne knows exact definition of `Hoisting`?
+`korosensei`: So everyone, put your guns down and listen very well. Anyne knows exact definition of `Hoisting`?
 
 <img width="20" alt="nagisa" src="./assets/nagisa.png">
 
@@ -54,7 +50,7 @@ but, before that, you should know the some crucial conepts, Now everyone lets be
 
 ```javascript
 var x = 10;
-///----this 1-line is converting to these below lines:-----
+//----this 1-line is converting to these two:-----
 var x;
 x = 10;
 ```
@@ -69,7 +65,7 @@ x = 10;
 
 <img width="20" alt="karma" src="./assets/karma.png">
 
-`karma`: yes sensei, One of the advantages of `JavaScript` putting function declarations into memory before it executes any code segment, is that it allows us to use a function before you declare it in your code.
+`karma`: yes sensei, One of the advantages of `JavaScript` putting function `declarations` into memory before it executes any code segment, is that it allows us to use a function before you declare it in your code.
 
 <img width="20" alt="koro-sensei or JS master" src="./assets/koro-sensei.png">
 
@@ -94,7 +90,7 @@ function catName(name) {
 //output: My cat's name is Tiger
 ```
 
-Note that, Even though we call the function in our code first(`before the function is written`), the code still works. This is because of `how context execution works in JavaScript`.
+Note that, Even though we call the function in our code first(`before the function is written`), the code still works. This is because of `how context execution works in JavaScript` which is the `hoist` behavior.
 
 <img width="20" alt="nagisa" src="./assets/nagisa.png">
 
@@ -187,7 +183,14 @@ var num; // Declaration
 num = 6; // Initialization
 ```
 
-`line 1` Returns `undefined`, as only declaration by `var` was hoisted with `auto-initialize` to `undefined`, and no `initialization` has happened at `line 1` or before that by `assignment`.
+`line 1` Returns `undefined`, as only declaration by `var` was hoisted with `auto-initialize` to `undefined`, and no `initialization` has happened at `line 1` or before that by `assignment`. So its equal to this:
+
+```javascript
+var num; // Declaration
+console.log(num); // line 1
+num = 6; // Initialization
+```
+
 **Note**: JavaScript only hoists `declarations`, not `initializations`.
 
 <img width="20" alt="koro-sensei or JS master" src="./assets/koro-sensei.png">
@@ -211,7 +214,7 @@ num = 6;
 <img width="20" alt="karma" src="./assets/karma.png">
 
 `karma`: sensei, as you told us before, decalration will happen when we use `var,let,const,function, function*, class`, which there is'nt any here in this `quiz`, and it has only the initialization(`assignment`), so i think it throws `ReferenceError exception`, because at the line 1, it wants to access `num` in the memory, but there is no `num` in there yet.
-let me check this plz:
+let me show you plz:
 
 <div style="text-align:center"><img alt="Javascript Hoist the right way assasin level" src="./assets/epi2_3.png" ></div>
 
@@ -296,7 +299,7 @@ var foo = function foo() {  console.log('hi'); }
 <img width="40" alt="developer he/she" src="./assets/developer.png">
 
 `developer`: ahmmm, let me think about it a little more🤔...
-I hope this is correct:
+I hope this is the answer:
 
 <details>
 <summary>
@@ -486,10 +489,7 @@ const a; // Throws SyntaxError: Missing initializer in const declaration
 
 `Korosensei`: Congratulions🎉🎉🎉. Now you should be able to answer all of these quizzes in this [article](https://medium.com/@pvivek4/hoisting-demystified-with-popular-interview-questions-38a93ea441ff).
 
-<img width="20" alt="nagisa" src="./assets/nagisa.png"> 
-<img width="20" alt="nagisa" src="./assets/kaede.png"> 
-<img width="20" alt="karma" src="./assets/karma.png"> 
-<img width="40" alt="developer he/she" src="./assets/developer.png">
+<img width="20" alt="nagisa" src="./assets/nagisa.png"><img width="20" alt="nagisa" src="./assets/kaede.png"><img width="20" alt="karma" src="./assets/karma.png"><img width="40" alt="developer he/she" src="./assets/developer.png">
 
 `Class`: Horrayyyyyyyyy😍😍🎉🎉👏👏👏👏`
 
