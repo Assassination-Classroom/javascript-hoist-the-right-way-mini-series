@@ -20,7 +20,7 @@ Everything began from this simple yet thinkable question: `Why learning new kind
 
 - [How JS engine Works](./episode1.md)
   `Prepration(Parsing/Compilation),Execution`
-- Base Concepts of JavaScript:
+- [Base Concepts of JavaScript](./episode2.md)
   `Hoisting, Scope, lookup, declaration, etc.`
 - Advanced Topics and examples:
   `Parameter scope and shadowing, Temporal Dead Zoneetc.`
