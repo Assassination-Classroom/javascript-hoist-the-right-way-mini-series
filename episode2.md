@@ -180,7 +180,7 @@ y = 5;
 //q1
 console.log(num); // line 1
 var num; // Declaration
-num = 6; // Initialization
+num = 6; // Assignment
 ```
 
 `line 1` Returns `undefined`, as only declaration by `var` was hoisted with `auto-initialize` to `undefined`, and no `initialization` has happened at `line 1` or before that by `assignment`. So its equal to this:
@@ -188,7 +188,7 @@ num = 6; // Initialization
 ```javascript
 var num; // Declaration
 console.log(num); // line 1
-num = 6; // Initialization
+num = 6; // Assignment
 ```
 
 **Note**: JavaScript only hoists `declarations`, not `initializations`.
