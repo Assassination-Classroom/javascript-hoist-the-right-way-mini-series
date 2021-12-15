@@ -1,6 +1,6 @@
 # Episode 2
 
-### JavaScript Base Concepts(Hoist,)
+### JavaScript Base Concepts(Hoist)
 
 <div style="text-align:center"><img alt="Javascript Hoist the right way assasin level" src="./assets/epi2_0.png" ></div>
 
