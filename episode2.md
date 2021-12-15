@@ -47,6 +47,7 @@ but, before that, you should know some crucial conepts, Now everyone lets begin,
 `nagisa`: is'nt it about:
 
 > Hoisting is JavaScript's default behavior of `moving all declarations to the top of the current scope` (to the top of the current script or the current function).[W3schools](https://www.w3schools.com/js/js_hoisting.asp) e.g. `
+> 
 > Variable declarations (and declarations in general) are processed before any code is executed, declaring a variable anywhere in the code is equivalent to declaring it at the top. This also means that a variable can appear to be used before it's declared. This behavior is called "hoisting", as it appears that the variable declaration is moved to the top of the function or global code.[Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#var_hoisting)
 
 ```javascript
