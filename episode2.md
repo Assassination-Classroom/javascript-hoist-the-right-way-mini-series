@@ -47,6 +47,7 @@ but, before that, you should know some crucial conepts, Now everyone lets begin,
 `nagisa`: is'nt it about:
 
 > Hoisting is JavaScript's default behavior of `moving all declarations to the top of the current scope` (to the top of the current script or the current function).[W3schools](https://www.w3schools.com/js/js_hoisting.asp) e.g. `
+> Variable declarations (and declarations in general) are processed before any code is executed, declaring a variable anywhere in the code is equivalent to declaring it at the top. This also means that a variable can appear to be used before it's declared. This behavior is called "hoisting", as it appears that the variable declaration is moved to the top of the function or global code.[Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#var_hoisting)
 
 ```javascript
 var x = 10;
@@ -113,7 +114,9 @@ Note that, Even though we call the function in our code first(`before the functi
 <div style="text-align:center"><img width="600px" alt="Javascript Hoist the right way assasin level" src="./assets/epi2_1.png" ></div>
 
 - `Declaration`: The variable is registered using a given name within the corresponding scope (explained below – e.g. inside a function).
-- `Initialization`: When you declare a variable it is automatically initialized, which means memory is allocated for the variable by the JavaScript engine.
+- `Initialization`: 
+  - `Auto-Initialize`: When you declare a variable it is automatically initialized, which means memory is allocated for the variable by the JavaScript engine.
+  - `First Assignment`: It's important to point out that the hoisting will affect the variable declaration, but not its value's initialization. The value will be indeed assigned       when the assignment statement is reached [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
 - `Assignment`: This is when a specific value is assigned to the variable.(at `execution time`)
 
 ##### `var` life-cyle in action: [YDKJS](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch5.md)
@@ -179,19 +182,19 @@ y = 5;
 ```javascript
 //q1
 console.log(num); // line 1
-var num; // Declaration
-num = 6; // Assignment
+var num; // Declaration and Auto-Initialization with undefined 
+num = 6; // First Assignment (or initialize with 6)
 ```
 
 `line 1` Returns `undefined`, as only declaration by `var` was hoisted with `auto-initialize` to `undefined`, and no `initialization` has happened at `line 1` or before that by `assignment`. So its equal to this:
 
 ```javascript
-var num; // Declaration
+var num; // Declaration and Auto-Initialization with undefined
 console.log(num); // line 1
-num = 6; // Assignment
+num = 6; // First Assignment (or initialize with 6)
 ```
 
-**Note**: JavaScript only hoists `declarations`, not `initializations`.
+**Note**: JavaScript only hoists `Declarations`, not `Initializations, Assignments`.
 
 <img width="20" alt="koro-sensei or JS master" src="./assets/koro-sensei.png">
 
